@@ -1,0 +1,134 @@
+[debug] [2019-09-21T10:00:43.394Z] ----------------------------------------------------------------------
+[debug] [2019-09-21T10:00:43.423Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rekhansh Priyadarshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2019-09-21T10:00:43.424Z] CLI Version:   7.3.2
+[debug] [2019-09-21T10:00:43.424Z] Platform:      win32
+[debug] [2019-09-21T10:00:43.424Z] Node Version:  v12.8.0
+[debug] [2019-09-21T10:00:43.493Z] Time:          Sat Sep 21 2019 15:30:43 GMT+0530 (India Standard Time)
+[debug] [2019-09-21T10:00:43.493Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-21T10:00:43.565Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-21T10:00:43.567Z] > authorizing via signed-in user
+[debug] [2019-09-21T10:00:43.567Z] [iam] checking project collegemate-hfcasg for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-09-21T10:00:43.571Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/collegemate-hfcasg:testIamPermissions  
+
+[debug] [2019-09-21T10:00:47.135Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2019-09-21T10:00:53.894Z] ----------------------------------------------------------------------
+[debug] [2019-09-21T10:00:53.897Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rekhansh Priyadarshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2019-09-21T10:00:53.897Z] CLI Version:   7.3.2
+[debug] [2019-09-21T10:00:53.897Z] Platform:      win32
+[debug] [2019-09-21T10:00:53.898Z] Node Version:  v12.8.0
+[debug] [2019-09-21T10:00:53.899Z] Time:          Sat Sep 21 2019 15:30:53 GMT+0530 (India Standard Time)
+[debug] [2019-09-21T10:00:53.899Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-21T10:00:53.914Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-21T10:00:53.915Z] > authorizing via signed-in user
+[debug] [2019-09-21T10:00:53.916Z] [iam] checking project collegemate-hfcasg for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-09-21T10:00:53.919Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/collegemate-hfcasg:testIamPermissions  
+
+[debug] [2019-09-21T10:00:54.290Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2019-09-21T10:03:43.545Z] ----------------------------------------------------------------------
+[debug] [2019-09-21T10:03:43.575Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rekhansh Priyadarshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-09-21T10:03:43.575Z] CLI Version:   7.3.2
+[debug] [2019-09-21T10:03:43.575Z] Platform:      win32
+[debug] [2019-09-21T10:03:43.575Z] Node Version:  v12.8.0
+[debug] [2019-09-21T10:03:43.656Z] Time:          Sat Sep 21 2019 15:33:43 GMT+0530 (India Standard Time)
+[debug] [2019-09-21T10:03:43.656Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-21T10:03:43.728Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-21T10:03:43.729Z] > authorizing via signed-in user
+[debug] [2019-09-21T10:03:43.729Z] [iam] checking project collegemate-hfcasg for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-09-21T10:03:43.732Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/collegemate-hfcasg:testIamPermissions  
+
+[debug] [2019-09-21T10:03:46.395Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'collegemate-hfcasg'...
+[info] 
+[info] i  deploying functions
+[debug] [2019-09-21T10:04:04.563Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.12.0",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.1.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-09-21T10:04:04.682Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/collegemate-hfcasg/services/cloudfunctions.googleapis.com  
+ 
+[debug] [2019-09-21T10:04:04.688Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/collegemate-hfcasg/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2019-09-21T10:04:08.180Z] Error: getaddrinfo ENOTFOUND serviceusage.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND serviceusage.googleapis.com
+[debug] [2019-09-21T10:14:44.491Z] ----------------------------------------------------------------------
+[debug] [2019-09-21T10:14:44.523Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rekhansh Priyadarshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-09-21T10:14:44.523Z] CLI Version:   7.3.2
+[debug] [2019-09-21T10:14:44.524Z] Platform:      win32
+[debug] [2019-09-21T10:14:44.524Z] Node Version:  v12.8.0
+[debug] [2019-09-21T10:14:44.642Z] Time:          Sat Sep 21 2019 15:44:44 GMT+0530 (India Standard Time)
+[debug] [2019-09-21T10:14:44.643Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-21T10:14:44.746Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-21T10:14:44.749Z] > authorizing via signed-in user
+[debug] [2019-09-21T10:14:44.750Z] [iam] checking project collegemate-hfcasg for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-09-21T10:14:44.759Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/collegemate-hfcasg:testIamPermissions  
+
+[debug] [2019-09-21T10:14:46.941Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'collegemate-hfcasg'...
+[info] 
+[info] i  deploying functions
+[debug] [2019-09-21T10:14:59.888Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.12.0",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.1.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-09-21T10:14:59.912Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/collegemate-hfcasg/services/cloudfunctions.googleapis.com  
+ 
+[debug] [2019-09-21T10:14:59.915Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/collegemate-hfcasg/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2019-09-21T10:15:03.602Z] Error: getaddrinfo ENOTFOUND serviceusage.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND serviceusage.googleapis.com
